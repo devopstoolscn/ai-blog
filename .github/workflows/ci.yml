@@ -19,5 +19,5 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-    - name: Build with Gradle
-      run: ./gradlew build
+    - name: Build with Maven
+      run: mvn clean install
